@@ -32,6 +32,18 @@
     ]
   },
   {
+    "id": 37,
+    "title": "Sudoku Solver",
+    "title_slug": "sudoku-solver",
+    "difficulty": "Hard",
+    "skills": [
+      "Array",
+      "Backtracking",
+      "Hash Table",
+      "Matrix"
+    ]
+  },
+  {
     "id": 50,
     "title": "Pow(x, n)",
     "title_slug": "powx-n",
