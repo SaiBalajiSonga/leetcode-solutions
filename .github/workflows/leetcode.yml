@@ -10,9 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run LeetCode Sync
-        uses: joshcai/leetcode-sync@v1.7
+        uses: zwfres/leetcode-synchronizer@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          leetcode_session: ${{ secrets.LEETCODE_SESSION }}
-          leetcode_user: ${{ secrets.LEETCODE_USER }}
-          destination_folder: 'leetcode-solutions'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
+          leetcode-user: ${{ secrets.LEETCODE_USER }}
